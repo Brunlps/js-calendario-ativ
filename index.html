@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+    <title>Seu mês e dia</title>
+  </head>
+  <body>
+
+    <div class=" flex flex-col justify-center items-center h-screen
+    bg-slate-950">
+    <h1 class="text-2x1 text-white font-bold text-center">Descubra se nome <br> de Maronba
+    </h1>
+
+    <div class="flex gap-4 pe-10px">
+      <div class="font-bold uppercase text-white text-center">
+            <h2>Escolha seu dia</h2>
+            <select id="dia"  class="border-2 border-white-2 text-white w-50"></select>
+        </div>
+
+        <div>
+            <h2 class="font-bold uppercase text-white text-center">Escolha seu mês</h2>
+            <select id="mes" class="border-2 border-white-2 text-white w-50" ></select>
+        </div>
+        
+    </div>
+    <button onclick="descobrirNome()" class="leading-10 bg-white rounded-full px-10 duration-150 hover:bg-slate-800 font-semibold cursor-pointer">Descobrir</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
